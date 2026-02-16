@@ -1,0 +1,28 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main {
+  margin-left: var(--sidebar-width);
+  flex: 1;
+  padding: 2rem 3rem;
+  max-width: 900px;
+}
+
+.footer {
+  margin-top: 4rem;
+  padding: 2rem 0;
+  text-align: center;
+  color: var(--color-text-muted);
+  font-size: 0.85rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+@media (max-width: 768px) {
+  .main {
+    margin-left: 0;
+    margin-top: 56px;
+    padding: 1.5rem 1rem;
+  }
+}

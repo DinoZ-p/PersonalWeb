@@ -1,0 +1,47 @@
+:root {
+  /* Vibrant palette */
+  --color-primary: #6c5ce7;
+  --color-secondary: #00cec9;
+  --color-accent: #fd79a8;
+  --color-highlight: #ffeaa7;
+  --color-bg-dark: #0a0a1a;
+  --color-bg-card: #1a1a2e;
+  --color-text: #f0f0f5;
+  --color-text-muted: #a0a0b5;
+
+  /* Gradients */
+  --gradient-hero: linear-gradient(135deg, #6c5ce7, #00cec9, #fd79a8);
+  --gradient-card: linear-gradient(145deg, #1a1a2e, #16213e);
+  --gradient-button: linear-gradient(90deg, #6c5ce7, #fd79a8);
+
+  /* Spacing */
+  --sidebar-width: 80px;
+
+  /* Typography */
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+/* Responsive: collapse sidebar offset on mobile */
+@media (max-width: 768px) {
+  :root {
+    --sidebar-width: 0px;
+  }
+}

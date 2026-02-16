@@ -1,0 +1,26 @@
+.section {
+  padding: 2rem 0;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.8rem 2rem;
+  border-radius: 8px;
+  background: var(--gradient-button);
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(253, 121, 168, 0.35);
+}
+
+.button svg {
+  font-size: 1.1rem;
+}

@@ -1,0 +1,30 @@
+.hero {
+  padding: 6rem 0 3rem;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.highlight {
+  background: var(--gradient-hero);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tagline {
+  margin-top: 0.75rem;
+  font-size: 1.25rem;
+  color: var(--color-secondary);
+  letter-spacing: 0.5px;
+}
+
+.intro {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  color: var(--color-text-muted);
+  max-width: 550px;
+}
