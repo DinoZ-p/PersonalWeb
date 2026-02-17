@@ -5,7 +5,7 @@ function SocialLinks() {
   return (
     <section className={styles.socials}>
       <a
-        href="https://github.com/YOUR_USERNAME"
+        href="https://github.com/DinoZ-p"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.link}
@@ -15,7 +15,7 @@ function SocialLinks() {
         <span>GitHub</span>
       </a>
       <a
-        href="https://linkedin.com/in/YOUR_USERNAME"
+        href="https://www.linkedin.com/in/dinozhao/"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.link}
