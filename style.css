@@ -107,9 +107,33 @@ body {
 .email-info {
   margin-top: 8px;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--muted);
   line-height: 1.7;
+  white-space: nowrap;
+}
+
+.copyable {
+  cursor: pointer;
+  position: relative;
+  transition: color 0.2s;
+}
+
+.copyable:hover {
+  color: var(--accent);
+}
+
+.copyable.copied::after {
+  content: 'Copied!';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 100%;
+  background: var(--text);
+  color: #fff;
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 4px;
   white-space: nowrap;
 }
 

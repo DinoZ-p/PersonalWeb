@@ -35,9 +35,9 @@
     </nav>
 
     <div class="email-info">
-      <p>tomzhaozhenghang@gmail.com</p>
-      <p>zz3410@columbia.edu</p>
-      <p>(917) 886-4627</p>
+      <p class="copyable" onclick="copyText(this)">tomzhaozhenghang@gmail.com</p>
+      <p class="copyable" onclick="copyText(this)">zz3410@columbia.edu</p>
+      <p class="copyable" onclick="copyText(this)">(917) 886-4627</p>
     </div>
   </aside>
 
@@ -155,6 +155,14 @@
 
   </main>
 </div>
+
+<script>
+function copyText(el) {
+  navigator.clipboard.writeText(el.textContent);
+  el.classList.add('copied');
+  setTimeout(function() { el.classList.remove('copied'); }, 1200);
+}
+</script>
 
 </body>
 </html>
