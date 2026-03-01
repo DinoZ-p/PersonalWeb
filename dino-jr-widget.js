@@ -17,7 +17,7 @@
    * ========================================================================= */
   var GREETING =
     "Hey!! I\u2019m Dino Jr. \uD83E\uDD95 " +
-    "I\u2019m the AI version of Dino \u2014 ask me anything you want to know about him. " +
+    "I\u2019m the Cyber Twin of Dino \u2014 ask me anything you want to know about him. " +
     "Projects, background, interests, or what he\u2019s been up to. What\u2019s on your mind?";
 
   var BUBBLE_TEXT    = 'Chat with me! \uD83E\uDD95';
@@ -84,7 +84,7 @@
     var hAvatar = make('img',  null, { className: 'djr-header-avatar', src: AVATAR_URL, alt: '' });
     var hInfo   = make('div');
     var hName   = make('div', 'Dino Jr.',        { className: 'djr-header-name' });
-    var hSub    = make('div', 'AI version of Dino', { className: 'djr-header-sub' });
+    var hSub    = make('div', 'Cyber version of Dino', { className: 'djr-header-sub' });
     hInfo.appendChild(hName);
     hInfo.appendChild(hSub);
     hLeft.appendChild(hAvatar);
